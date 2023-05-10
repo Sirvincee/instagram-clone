@@ -1,111 +1,255 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/dist/output.css" rel="stylesheet" />
-    <title>Instagram</title>
-  </head>
-  <body class="bg-black text-white">
-    <!-- section 1 -->
-    <!-- wrapper -->
-    <div class="w-full flex">
-      <!-- header -->
-      <header
-        class="w-[16%] border-r-2 border-gray-700 flex justify-start h-[100vh] overflow-hidden relative"
-      >
-        <div class="w-[70%] h-full  ">
-          <!-- instagram-icon -->
-          <span class="block mb-3 "
-            ><img
-              src="./icons/instagram-logo.svg"
-              alt="twitter-icon"
-              class="w-[132px] h-[120px] cursor-pointer"
-          /></span>
-          <!-- home -->
-          <span class="flex items-center font-bold p-3 text-base cursor-pointer ">
-            <img
-              src="./icons/insta_home-icon.svg"
-              alt="home"
-              class="w-[30px] h-[30px] mr-4"
-            />Home
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="/dist/output.css" rel="stylesheet" />
+  <title>Instagram</title>
+</head>
+
+<body class="bg-black text-white">
+  <!-- section 1 -->
+  <!-- wrapper -->
+  <div class="w-full flex">
+    <!-- header -->
+    <header class="w-[16%] border-r-2 border-gray-700 flex justify-start h-[100vh] overflow-hidden relative">
+      <div class="w-[70%] h-full  ">
+        <!-- instagram-icon -->
+        <span class="block mb-3 "><img src="./icons/instagram-logo.svg" alt="twitter-icon"
+            class="w-[132px] h-[120px] cursor-pointer" /></span>
+        <!-- home -->
+        <span class="flex items-center font-bold p-3 text-base cursor-pointer ">
+          <img src="./icons/insta_home-icon.svg" alt="home" class="w-[30px] h-[30px] mr-4" />Home
+        </span>
+        <!-- search -->
+        <span class="flex items-center p-3 text-base cursor-pointer"><img src="./icons/insta_search-icon.svg"
+            alt="hashtag" class="w-[30px] h-[30px] mr-4" />Search</span>
+        <!-- explore -->
+        <span class="p-3 flex items-center text-base cursor-pointer"><img src="./icons/insta_explore-icon.png"
+            alt="notification-bell" class="w-[30px] h-[30px] mr-4" />Explore</span>
+        <!-- reels -->
+        <span class="p-3 flex items-center text-base cursor-pointer"><img src="./icons/insta_reels-icon.png"
+            alt="message-icon" class="w-[30px] h-[30px] mr-4" />Reels</span>
+        <!-- messages -->
+        <span class="p-3 flex items-center text-base cursor-pointer"><img src="./icons/insta_messgaes-icon.png"
+            alt="messages-icon" class="w-[30px] h-[30px] mr-4" />Messages</span>
+        <!-- twitter notification -->
+        <span class="p-3 flex items-center text-base cursor-pointer"><img src="./icons/insta_notification-icon.png"
+            alt="verified_twitter-icon" class="w-[30px] h-[30px] mr-4" />Notifications</span>
+        <!-- create-->
+        <span class="p-3 flex items-center text-base cursor-pointer"><img src="./icons/insta_create-icon.png"
+            alt="profile-icon" class="w-[30px] h-[30px] mr-4" />Create</span>
+        <!-- profile -->
+        <div class="flex items-center p-3">
+          <span class="h-full rounded-full flex justify-center items-center">
+            <img src="./imgs/siirvince.jpeg" alt="@divzble" class="w-7 h-7 rounded-full cursor-pointer" />
           </span>
-          <!-- search -->
-          <span class="flex items-center p-3 text-base cursor-pointer"
-            ><img
-              src="./icons/insta_search-icon.svg"
-              alt="hashtag"
-              class="w-[30px] h-[30px] mr-4"
-            />Search</span
-          >
-          <!-- explore -->
-          <span class="p-3 flex items-center text-base cursor-pointer"
-            ><img
-              src="./icons/insta_explore-icon.png"
-              alt="notification-bell"
-              class="w-[30px] h-[30px] mr-4"
-            />Explore</span
-          >
-          <!-- reels -->
-          <span class="p-3 flex items-center text-base cursor-pointer"
-            ><img
-              src="./icons/insta_reels-icon.png"
-              alt="message-icon"
-              class="w-[30px] h-[30px] mr-4"
-            />Reels</span
-          >
-          <!-- messages -->
-          <span class="p-3 flex items-center text-base cursor-pointer"
-            ><img
-              src="./icons/insta_messgaes-icon.png"
-              alt="messages-icon"
-              class="w-[30px] h-[30px] mr-4"
-            />Messages</span
-          >
-          <!-- twitter notification -->
-          <span class="p-3 flex items-center text-base cursor-pointer"
-            ><img
-              src="./icons/insta_notification-icon.png"
-              alt="verified_twitter-icon"
-              class="w-[30px] h-[30px] mr-4"
-            />Notifications</span
-          >
-          <!-- create-->
-          <span class="p-3 flex items-center text-base cursor-pointer"
-            ><img
-              src="./icons/insta_create-icon.png"
-              alt="profile-icon"
-              class="w-[30px] h-[30px] mr-4"
-            />Create</span
-          >
-          <!-- profile -->
-          <div class="flex items-center p-3">
-            <span class="h-full rounded-full flex justify-center items-center">
-              <img
-                src="./imgs/siirvince.jpeg"
-                alt="@divzble"
-                class="w-7 h-7 rounded-full cursor-pointer"
-              />
-            </span>
-            <span class="h-full cursor-pointer text-base ml-4">
-              <span>Profile</span>
-            </div>
-          </span>
-          <!-- more -->
-          <div class="flex items-center px-3 mt-44 ">
-            <span class="h-full flex justify-center items-center">
-              <img
-                src="./icons/insta_more-icon.png"
-                alt="@divzble"
-                class="w-7 h-7 rounded-full cursor-pointer"
-              />
-            </span>
-            <span class="h-full cursor-pointer ml-4">
-              <span>More</span>
-            </span>
-          </div>
+          <span class="h-full cursor-pointer text-base ml-4">
+            <span>Profile</span>
         </div>
-      </header>
-    </div>
-  </body>
+        </span>
+        <!-- more -->
+        <div class="flex items-center px-3 mt-44 ">
+          <span class="h-full flex justify-center items-center">
+            <img src="./icons/insta_more-icon.png" alt="@divzble" class="w-7 h-7 rounded-full cursor-pointer" />
+          </span>
+          <span class="h-full cursor-pointer ml-4">
+            <span>More</span>
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <!-- two sided body (newsfeed and suggested for you) -->
+    <main class="w-full h-[100vh]  flex relative overflow-y-scroll">
+      <!-- first part of the body-stories and media-contents -->
+      <section class="w-[55%] border-r-2 border-gray-700 h-max ">
+        <!-- stories wrapper -->
+        <div class="w-full flex flex-col">
+          <!-- stories -->
+          <div class=" borderlight flex justify-between mt-20">
+
+            <!-- 1st -->
+            <div class="w-[13%] borderlight items-center flex flex-col justify-center ">
+              <div class="w-16 h-16 border-[3px] border-red-600 rounded-full p-[1px]">
+                <img src="./imgs/genesis_motaa.jpg" alt="" class="object-cover rounded-full">
+              </div>
+              <div class=" text-xs flex justify-center items-center p-1">madcharts</div>
+            </div>
+            
+            <!-- 2nd -->
+            
+          </div>
+          <!-- media-content -->
+          <!-- 1st -->
+          <div class="w-full  p-3 px-9 border-b-2 border-gray-700 ">
+            <div class="flex  mb-2"><img src="./img/elon-musk (profile-img).jpg" alt="profile-img"
+                class="w-12 h-12 rounded-full cursor-pointer">
+              <div class="flex flex-col  ml-3 cursor-pointer">
+
+                <span class="font-bold tracking-wide flex items-center ">Elon Musk <img src="./icons/verified-icon.png"
+                    alt="verified-icon" class="w-5 h-5 ml-1">
+                  <img src="./icons/squared_twitter-cion.png" alt="squared-icon" class="w-5 h-5 ml-1">
+                  <span class="font-normal text-gray-500 ml-2">@elonmusk · 18h</span></span>
+                <span class="text-base">Home</span>
+              </div>
+            </div>
+            <div class="w-[400px]  rounded-lg m-auto cursor-pointer">
+              <img src="./img/elon-musk (home).jpg" alt="" class="w-[400px] h-[600px] rounded-lg">
+            </div>
+            <div class="w-full mt-2  p-2 flex justify-evenly ">
+              <span class="flex items-center text-sm text-gray-500 cursor-pointer"><img src="./icons/comment-icon.png"
+                  alt="comment-icon" class="w-5 h-5 mr-2">3,067K</span>
+
+              <span class="flex items-center text-sm text-gray-500 cursor-pointer"><img src="./icons/retweet-icon.png"
+                  alt="retweet-icon" class="w-5 h-5 mr-2">300K</span>
+
+              <span class="flex items-center text-sm text-gray-500 cursor-pointer"><img src="./icons/like-icon.png"
+                  alt="like-icon" class="w-5 h-5 mr-2">3.6M</span>
+
+              <span class="flex items-center text-sm text-gray-500 cursor-pointer"><img src="./icons/view-icon.png"
+                  alt="views-icon" class="w-5 h-5 mr-2">6.9M</span>
+
+              <span class="flex items-center text-sm text-gray-500 cursor-pointer"><img src="./icons/share-icon.png"
+                  alt="share-icon" class="w-5 h-5 mr-2"></span>
+            </div>
+          </div>
+
+          <!-- 2nd -->
+          <div class="w-full  p-3 px-9 border-b-2 border-gray-700 ">
+            <div class="flex  mb-2"><img src="./img/naija_pr(profile-img).jpg" alt="profile-img"
+                class="w-12 h-12 rounded-full cursor-pointer">
+              <div class="flex flex-col  ml-3 cursor-pointer">
+
+                <span class="font-bold tracking-wide flex items-center ">Naija <img src="./icons/verified-icon.png"
+                    alt="verified-icon" class="w-5 h-5 ml-1">
+                  <span class="font-normal text-gray-500 ml-2">@Naija_PR · 3h</span></span>
+                <span class="text-base">As a Nigerian, what's your next move?</span>
+              </div>
+            </div>
+            <div class="w-[500px]  rounded-lg m-auto">
+              <img src="./img/naija_pr(post).jpg" alt="" class="w-[500px] h-[500px] rounded-lg cursor-pointer">
+            </div>
+            <div class="w-full mt-2  p-2 flex justify-evenly ">
+              <span class="flex items-center text-sm text-gray-500 cursor-pointer"><img src="./icons/comment-icon.png"
+                  alt="comment-icon" class="w-5 h-5 mr-2">748</span>
+
+              <span class="flex items-center text-sm text-gray-500 cursor-pointer"><img src="./icons/retweet-icon.png"
+                  alt="retweet-icon" class="w-5 h-5 mr-2">190</span>
+
+              <span class="flex items-center text-sm text-gray-500 cursor-pointer"><img src="./icons/like-icon.png"
+                  alt="like-icon" class="w-5 h-5 mr-2">2,178</span>
+
+              <span class="flex items-center text-sm text-gray-500 cursor-pointer"><img src="./icons/view-icon.png"
+                  alt="views-icon" class="w-5 h-5 mr-2">219.7K</span>
+
+              <span class="flex items-center text-sm text-gray-500 cursor-pointer"><img src="./icons/share-icon.png"
+                  alt="share-icon" class="w-5 h-5 mr-2"></span>
+            </div>
+          </div>
+
+          <!-- 3rd -->
+          <div class="w-full  p-3 px-9 border-b-2 border-gray-700 ">
+            <div class="flex  mb-2"><img src="./img/ronaldo(profile-img).jpg" alt="profile-img"
+                class="w-12 h-12 rounded-full cursor-pointer">
+              <div class="flex flex-col  ml-3 cursor-pointer">
+
+                <span class="font-bold tracking-wide flex items-center ">Cristiano Ronaldo <img
+                    src="./icons/verified-icon.png" alt="verified-icon" class="w-5 h-5 ml-1">
+                  <span class="font-normal text-gray-500 ml-2">@Cristiano · 6h</span></span>
+                <span class="text-base">Cheers to Love😘</span>
+              </div>
+            </div>
+            <div class="w-[400px]  rounded-lg m-auto">
+              <img src="./img/ronaldo(post).jpg" alt="" class="w-[400px] h-[500px] rounded-lg cursor-pointer">
+            </div>
+            <div class="w-full mt-2  p-2 flex justify-evenly ">
+              <span class="flex items-center text-sm text-gray-500 cursor-pointer"><img src="./icons/comment-icon.png"
+                  alt="comment-icon" class="w-5 h-5 mr-2">7,705K</span>
+
+              <span class="flex items-center text-sm text-gray-500 cursor-pointer"><img src="./icons/retweet-icon.png"
+                  alt="retweet-icon" class="w-5 h-5 mr-2">23.2K</span>
+
+              <span class="flex items-center text-sm text-gray-500 cursor-pointer"><img src="./icons/like-icon.png"
+                  alt="like-icon" class="w-5 h-5 mr-2">305K</span>
+
+              <span class="flex items-center text-sm text-gray-500 cursor-pointer"><img src="./icons/view-icon.png"
+                  alt="views-icon" class="w-5 h-5 mr-2">10.5M</span>
+
+              <span class="flex items-center text-sm text-gray-500 cursor-pointer"><img src="./icons/share-icon.png"
+                  alt="share-icon" class="w-5 h-5 mr-2"></span>
+            </div>
+          </div>
+
+          <!-- 4th -->
+          <div class="w-full  p-3 px-9 border-b-2 border-gray-700 ">
+            <div class="flex  mb-2"><img src="./img/chelsea(profile-img).jpg" alt="profile-img"
+                class="w-12 h-12 rounded-full cursor-pointer">
+              <div class="flex flex-col  ml-3 cursor-pointer">
+
+                <span class="font-bold tracking-wide flex items-center ">Chelsea FC <img
+                    src="./icons/verified_yellow-icon.png" alt="verified-icon" class="w-5 h-5 ml-1">
+                  <span class="font-normal text-gray-500 ml-2">@elonmusk · 18h</span></span>
+                <span class="text-base">A fantastic achivement, <span class="text-blue-500">@CesarAzpil
+                  </span>!👏</span>
+              </div>
+            </div>
+            <div class="w-[470px]  rounded-lg m-auto">
+              <img src="./img/chelsea(post).jpg" alt="" class="w-[470px] h-[400px] rounded-lg cursor-pointer">
+            </div>
+            <div class="w-full mt-2  p-2 flex justify-evenly ">
+              <span class="flex items-center text-sm text-gray-500 cursor-pointer"><img src="./icons/comment-icon.png"
+                  alt="comment-icon" class="w-5 h-5 mr-2">321</span>
+
+              <span class="flex items-center text-sm text-gray-500 cursor-pointer"><img src="./icons/retweet-icon.png"
+                  alt="retweet-icon" class="w-5 h-5 mr-2">1,746</span>
+
+              <span class="flex items-center text-sm text-gray-500 cursor-pointer"><img src="./icons/like-icon.png"
+                  alt="like-icon" class="w-5 h-5 mr-2">20.5K</span>
+
+              <span class="flex items-center text-sm text-gray-500 cursor-pointer"><img src="./icons/view-icon.png"
+                  alt="views-icon" class="w-5 h-5 mr-2">739.2K</span>
+
+              <span class="flex items-center text-sm text-gray-500 cursor-pointer"><img src="./icons/share-icon.png"
+                  alt="share-icon" class="w-5 h-5 mr-2">1.9M</span>
+            </div>
+          </div>
+
+          <!-- 5th -->
+          <div class="w-full  p-3 px-9 border-b-2 border-gray-700 ">
+            <div class="flex  mb-2"><img src="./img/alhaji(profile-img).jpg" alt="profile-img"
+                class="w-12 h-12 rounded-full cursor-pointer">
+              <div class="flex flex-col  ml-3 cursor-pointer">
+
+                <span class="font-bold tracking-wide flex items-center ">Alhaji Beardless Smallie🧑 <img
+                    src="./icons/verified-icon.png" alt="verified-icon" class="w-5 h-5 ml-1">
+                  <span class="font-normal text-gray-500 ml-2">@the_smallie · 11h</span></span>
+                <span class="text-base">Hello Arsenal, is it still lonely at the top?🤣</span>
+              </div>
+            </div>
+            <div class="w-[450px]  rounded-lg m-auto">
+              <img src="./img/alhaji(post).jpg" alt="" class="w-[450px] h-[450px] rounded-lg cursor-pointer">
+            </div>
+            <div class="w-full mt-2  p-2 flex justify-evenly ">
+              <span class="flex items-center text-sm text-gray-500 cursor-pointer"><img src="./icons/comment-icon.png"
+                  alt="comment-icon" class="w-5 h-5 mr-2">105</span>
+
+              <span class="flex items-center text-sm text-gray-500 cursor-pointer"><img src="./icons/retweet-icon.png"
+                  alt="retweet-icon" class="w-5 h-5 mr-2">212</span>
+
+              <span class="flex items-center text-sm text-gray-500 cursor-pointer"><img src="./icons/like-icon.png"
+                  alt="like-icon" class="w-5 h-5 mr-2">1,957</span>
+
+              <span class="flex items-center text-sm text-gray-500 cursor-pointer"><img src="./icons/view-icon.png"
+                  alt="views-icon" class="w-5 h-5 mr-2">6.9M</span>
+
+              <span class="flex items-center text-sm text-gray-500 cursor-pointer"><img src="./icons/share-icon.png"
+                  alt="share-icon" class="w-5 h-5 mr-2">726.4K</span>
+            </div>
+          </div>
+      </section>
+  </div>
+</body>
+
 </html>
